@@ -1,6 +1,6 @@
 import axios from "axios";
 const apiClient = axios.create({
-    baseURL: "https://budgetmate-mjeq.onrender.com",
+    baseURL: "https://budgetmate-mjeq.onrender.com/api",
     withCredentials:true,
 });
 //request:
