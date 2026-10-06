@@ -1790,3 +1790,249 @@ footer {
 .budget-delete-btn:hover {
   background: #fecdd3;
 }
+/* MOBILE RESPONSIVENESS*/
+
+@media (max-width: 600px) {
+
+  /* Navbar */
+  header {
+    min-height: auto;
+    padding: 15px;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  header > div {
+    font-size: 17px;
+  }
+
+  nav {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+  }
+
+  nav > div {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+  }
+
+  nav a,
+  .auth a {
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+
+  /* Main content */
+  main {
+    padding: 25px 12px;
+  }
+
+  main h1 {
+    font-size: 27px;
+  }
+
+  /* Sign in / Sign up */
+  .form2 {
+    width: 100%;
+    max-width: 100%;
+    margin: 30px auto;
+  }
+
+  .form2 fieldset {
+    padding: 22px 18px;
+  }
+
+  .form2 h2 {
+    font-size: 24px;
+  }
+
+  /* Create Budget */
+  .create-budget-page {
+    padding: 35px 12px 60px;
+  }
+
+  .budget-header h1 {
+    font-size: 30px;
+  }
+
+  .budget-card {
+    padding: 22px 18px;
+  }
+
+  /* Create category controls */
+  .create-category {
+    width: 100%;
+  }
+
+  .create-category input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .create-category input + button,
+  .create-category input + button + button {
+    margin-left: 0;
+    margin-right: 6px;
+    padding: 0 13px;
+  }
+
+  /* Budget list */
+  .budget-list-header {
+    gap: 18px;
+    margin-bottom: 25px;
+  }
+
+  .budget-list-header h1 {
+    font-size: 27px;
+  }
+
+  .budget-list-subtitle {
+    font-size: 14px;
+  }
+
+  .budget-item {
+    max-width: 100%;
+    min-height: 0;
+  }
+
+  /* Budget details */
+  .budget-details-card,
+  .purchase-card,
+  .purchases-section {
+    width: 100%;
+  }
+
+  .budget-amount-box {
+    padding: 20px;
+  }
+
+  .budget-amount-box h2 {
+    font-size: 29px;
+  }
+
+  /* Purchase section */
+  .purchase-section-header h2 {
+    font-size: 23px;
+  }
+
+  .purchase-card h2 {
+    font-size: 21px;
+  }
+
+  /* Purchase rows */
+  .purchase-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  /* Dashboard */
+  .dashboard-container {
+    padding: 15px 10px;
+  }
+
+  .dashboard-header h1 {
+    font-size: 27px;
+  }
+
+  .dashboard-add-btn {
+    width: 100%;
+  }
+
+  .dashboard-section {
+    padding: 18px;
+  }
+
+  .section-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  /* Dashboard budget rows */
+  .budget-row {
+    gap: 12px;
+  }
+
+  .budget-progress {
+    width: 100%;
+  }
+
+  /* Summary cards */
+  .summary-card {
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .summary-icon {
+    width: 55px;
+    height: 55px;
+    font-size: 23px;
+  }
+
+  .summary-card h3 {
+    font-size: 23px;
+  }
+
+  .summary-card p {
+    font-size: 14px;
+  }
+
+  /* Charts */
+  .dashboard-charts {
+    grid-template-columns: 1fr;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  /* Alerts */
+  .budget-alert {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 15px;
+  }
+}
+
+/* Very small phones */
+@media (max-width: 380px) {
+
+  header > div {
+    font-size: 16px;
+  }
+
+  nav a,
+  .auth a {
+    padding: 7px 8px;
+    font-size: 13px;
+  }
+
+  .budget-item {
+    padding: 17px;
+  }
+
+  .budget-card-header h1 {
+    font-size: 23px;
+  }
+
+  .budget-amount-box h2 {
+    font-size: 27px;
+  }
+
+  .summary-card {
+    padding: 17px;
+  }
+
+  .summary-icon {
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+  }
+
+  .summary-card h3 {
+    font-size: 21px;
+  }
+}

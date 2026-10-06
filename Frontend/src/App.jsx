@@ -1,7 +1,7 @@
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import Layout from "./assets/common/layout";
+import Layout from "./assets/common/Layout.jsx";
 import Dashboard from "./pages/Dashboard";
 import CreateBudget from "./pages/CreateBudget";
 import Budget from "./pages/Budget";
