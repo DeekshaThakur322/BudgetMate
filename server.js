@@ -13,7 +13,9 @@ console.log("MONGODB_URL exists:", !!process.env.MONGODB_URL);
 const startServer = async () => {
     try {
         await db();
-
+app.get("/", (req, res) => {
+  res.send(" BudgetMate API Server is live and running!");
+});
         app.listen(PORT,"0.0.0.0",() => {
             console.log(`Server is running on port ${PORT}`);
         });
